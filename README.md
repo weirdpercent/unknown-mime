@@ -11,7 +11,7 @@ unknown mime is a simple ruby admin script to fix the **Unknown media type in ty
 
 Just run 'sudo rake' and enter the root password.
 
-**NOTE:** For security purposes, it is always review what a piece of code does **BEFORE** running it with superuser privileges.
+**NOTE:** For security purposes, it is always wise to review what a piece of code does **BEFORE** running it with superuser privileges.
 Examine mime.rb and Rakefile to see that no malicious commands are run.
 
 ## Gratitude ##
