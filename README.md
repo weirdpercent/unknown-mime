@@ -1,6 +1,7 @@
 # unknown mime  #
 
 ![unknown mime](mime.jpg)
+Photo by [jyjou](http://www.flickr.com/photos/60886174@N02/5549882707/)
 
 unknown mime is a simple ruby admin script to fix the **Unknown media type in type 'xxx/xxx'** messages seen when running Linux package updates or the
 **update-mime-database** command. This script simply cleans all 'fake' mimetypes. If the messages reappear, simply run this script again.
