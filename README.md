@@ -4,6 +4,8 @@
 
 Photo by [jyjou](http://www.flickr.com/photos/60886174@N02/5549882707/)
 
+travis push[![Dependency Status](https://gemnasium.com/weirdpercent/unknown-mime.png)](https://gemnasium.com/weirdpercent/unknown-mime)
+
 unknown mime is a simple ruby admin script to fix the **Unknown media type in type 'xxx/xxx'** messages seen when running Linux package updates or the
 **update-mime-database** command. This script simply cleans all 'fake' mimetypes. If the messages reappear, simply run this script again.
 
