@@ -16,5 +16,12 @@ Just run 'sudo rake' and enter the root password.
 **NOTE:** For security purposes, it is always wise to review what a piece of code does **BEFORE** running it with superuser privileges.
 Examine mime.rb and Rakefile to see that no malicious commands are run.
 
+I was able to reproduce these errors for testing purposes by running:
+
+`sudo aptitude reinstall kdelibs-bin kdelibs5-data kdelibs5-plugins`
+
+To reconfigure the script for actual system modification, just comment/uncomment the lines in mime.rb that alternate between the script's local directory
+and /usr/share/mime/packages/kde.xml
+
 ## Gratitude ##
 Credit for this fix goes to http://www.garyshood.com/unknownmedia/

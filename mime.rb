@@ -1,4 +1,5 @@
-xml='/usr/share/mime/packages/kde.xml'
+#xml='/usr/share/mime/packages/kde.xml'
+xml='kde.xml'
 mt=File.readlines(xml)
 start=mt.index("  <!-- all/ fake mime types -->\n")
 start += 1
@@ -16,6 +17,7 @@ mt.each do
   y += 1
 end
 nf.close
-#`diff /usr/share/mime/packages/kde.xml ./newkde.xml`
-`mv newkde.xml /usr/share/mime/packages/kde.xml`
-`update-mime-database /usr/share/mime`
+`diff ./kde.xml ./newkde.xml`
+#`mv newkde.xml kde.xml`
+#`mv newkde.xml /usr/share/mime/packages/kde.xml`
+#`update-mime-database /usr/share/mime`
