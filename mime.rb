@@ -17,7 +17,9 @@ mt.each do
   y += 1
 end
 nf.close
-`diff ./kde.xml ./newkde.xml`
-#`mv newkde.xml kde.xml`
+puts "Run: diff ./kde.xml /usr/share/mime/packages/kde.xml"
+puts "Run: sudo mv newkde.xml /usr/share/mime/packages/kde.xml"
+puts "Run: update-mime-datebase /usr/share/mime"
+#`diff ./kde.xml ./newkde.xml`
 #`mv newkde.xml /usr/share/mime/packages/kde.xml`
 #`update-mime-database /usr/share/mime`
