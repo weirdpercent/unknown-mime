@@ -175,32 +175,8 @@ Notes:
   </mime-type>
 
   <!-- all/ fake mime types -->
-  <mime-type type="all/all">
-    <comment>all files and folders</comment>
-  </mime-type>
-  <mime-type type="all/allfiles">
-    <comment>all files</comment>
-  </mime-type>
 
   <!-- uri/ fake mime types -->
-  <mime-type type="uri/mms">
-    <comment>mms: URIs</comment>
-  </mime-type>
-  <mime-type type="uri/mmst">
-    <comment>mmst: URIs</comment>
-  </mime-type>
-  <mime-type type="uri/mmsu">
-    <comment>mmsu: URIs</comment>
-  </mime-type>
-  <mime-type type="uri/pnm">
-    <comment>pnm: URIs</comment>
-  </mime-type>
-  <mime-type type="uri/rtspt">
-    <comment>rtspt: URIs</comment>
-  </mime-type>
-  <mime-type type="uri/rtspu">
-    <comment>rtspu: URIs</comment>
-  </mime-type>
 
   <mime-type type="application/vnd.kde.fontspackage">
     <sub-class-of type="application/zip"/>
@@ -208,10 +184,6 @@ Notes:
     <glob pattern="*.fonts.zip"/>
   </mime-type>
 
-  <mime-type type="application/x-konsole">
-    <comment>file to open a shell</comment>
-    <glob pattern="*.shell"/>
-  </mime-type>
   <mime-type type="application/x-smb-server"> <!-- KDE-specific -->
     <sub-class-of type="inode/directory"/>
     <comment>Windows server</comment>
